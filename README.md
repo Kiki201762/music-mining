@@ -70,7 +70,8 @@ mb-bot/
 ### 4a. Setup env (VPS)
 
 ```bash
-cd mb-bot
+git clone https://github.com/Kiki201762/music-mining
+cd music-mining
 
 # Update & install Python + venv + build tools
 sudo apt update
@@ -86,7 +87,7 @@ pip install -r requirements.txt
 Jalankan generator session (sekali) — session otomatis tersimpan ke `accounts.json`:
 
 ```bash
-cd mb-bot
+cd music-mining
 source .venv/bin/activate
 python session.py
 ```
@@ -148,8 +149,8 @@ pkg install -y python python-pip openssl git binutils build-essential
 ### 4b. Clone & setup
 
 ```bash
-git clone <URL-REPO-MB> mb-bot
-cd mb-bot
+git clone https://github.com/Kiki201762/music-mining
+cd music-mining
 
 python -m venv .venv
 source .venv/bin/activate
